@@ -20,6 +20,12 @@ body{
 
 #fullNav{
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 4vw;
+    z-index: 1000;
+    margin-top: 2vh;
 }
 
 #fullNav > ul{
@@ -33,11 +39,20 @@ body{
 
 .current:hover{
     color: #008B8B;
+    text-decoration: none;
 }
 
 
 .navLink:hover{
     color: #008B8B;
+    text-decoration: none;
+}
+
+.nav-item{ 
+    float: right;
+    padding-left: 3vw;
+    font-size: 20px;
+
 }
 
 
@@ -112,12 +127,12 @@ body{
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: -150;
     display: block;
     background-color: #333333;
 }
 
-.container {
+.my-container {
     position: absolute;
     z-index: 100;
     min-height: 94vh;
@@ -125,7 +140,6 @@ body{
     margin-top: 4vh;
     left: 50%;
     transform: translate(-50%);
-    
 
 }
 
@@ -205,6 +219,17 @@ a{
     font-size: 1.5rem;
 }
 
+.test-class{
+    width: 80%;
+}
+
+.blue-box{
+    background-color: blue;
+    min-height: 100px;
+    position: relative;
+    z-index: 10;
+}
+
 
 
 
@@ -235,7 +260,7 @@ a{
     }
 
     #fullNav{
-        display: block;
+        display: flex;
     }
 
     

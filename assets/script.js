@@ -19,30 +19,30 @@ $(function(){
         $("#close").css("display", "none");
     });
 
-    $(".portfolio-img").mouseenter(function(){
-        $(this).css("box-shadow", "0 0 3pt 2pt #008B8B");
-    });
+    // $(".portfolio-img").mouseenter(function(){
+    //     $(this).css("box-shadow", "0 0 3pt 2pt #008B8B");
+    // });
 
-    $(".portfolio-img").mouseleave(function(){
-        $(this).css("box-shadow", "");
-    });
+    // $(".portfolio-img").mouseleave(function(){
+    //     $(this).css("box-shadow", "");
+    // });
 
-    $(".code-btn").mouseenter(function(){
-        $(this).height(function(index, height){
-            return (height + 10);
-        });
-        $(this).width(function(index, width){
-            return (width + 10);
-        });
-    });
+    // $(".code-btn").mouseenter(function(){
+    //     $(this).height(function(index, height){
+    //         return (height + 10);
+    //     });
+    //     $(this).width(function(index, width){
+    //         return (width + 10);
+    //     });
+    // });
 
-    $(".code-btn").mouseleave(function(){
-        $(this).height(function(index, height){
-            return (height - 10);
-        });
-        $(this).width(function(index, width){
-            return (width - 10);
-        });
-    });
+    // $(".code-btn").mouseleave(function(){
+    //     $(this).height(function(index, height){
+    //         return (height - 10);
+    //     });
+    //     $(this).width(function(index, width){
+    //         return (width - 10);
+    //     });
+    // });
     
 });
