@@ -53,13 +53,21 @@ body{
     justify-content: space-around;
     text-align: center;
     min-height: 10vh;
+    width: 100%;
 }
+
+.dropdown{
+    position: relative;
+    width: 100%;
+}
+
 
 
 #dropbtn{
     position: absolute;
     z-index: 1000;
     left: 50%;
+    margin-top: 3vh;
     transform: translate(-50%);
     color: whitesmoke;
     background-color: #008B8B;
@@ -72,6 +80,7 @@ body{
     display: none;
     z-index: 1000;
     right: 2vw;
+    top: 2vh;
     color: whitesmoke;
     background-color: #008B8B;
     border: #008B8B;
@@ -81,8 +90,13 @@ body{
     display: none;
     height: 1vh;
     z-index: 1000;
-    margin-top: 20px;
-    margin-right: 40px;
+    border-top: #008B8B;
+    border-top-style: solid;
+    border-top-width: 1px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1vh;
 }
 
 .bg-img{

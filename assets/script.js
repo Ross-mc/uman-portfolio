@@ -7,13 +7,14 @@ $(function(){
     });
 
     $("#dropbtn").click(function(){
-        $(".dropdown-link").css("display", "block").animate({height: "33vh"}, 1000);
+        $(".dropdown-link").css("display", "block").animate({height: "33.33vh", lineHeight: "33.33vh"}, 1000);
         $("#dropbtn").css("display", "none");
         $("#close").css("display", "block")
     });
 
     $("#close, .current").click(function(){
-        $(".dropdown-link").slideUp(1000).animate({height: "1vh"}, 1)
+        console.log('Clicked')
+        $(".dropdown-link").slideUp(1000).animate({height: "1vh", lineHeight: "1vh"}, 1)
         setTimeout(function(){$("#dropbtn").css("display", "block")}, 1000);
         $("#close").css("display", "none");
     });
