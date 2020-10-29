@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel ="stylesheet" href="assets/style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
+        <title>Ross McIntyre ~ Portfolio</title>
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="justify-content" id="fullNav">
+                <div class="nav-list">
+                    <div class="nav-item"><a href="index.html" class="navLink">Home</a></div>
+                    <div class="nav-item"><a href="#top" class="current">Portfolio</a></div>
+                    <div class="nav-item"><a href="contact.html" class="navLink">Contact</a></div>
+                </div>
+            </nav>
+            <nav class="mobile-nav">
+                <div class="dropdown">
+                    <div><button class="btn  btn-primary" id="dropbtn">Navigation &nbsp;<i class="fa fa-caret-down"></i></button></div>
+                    <div id="closeDiv"><button class="btn btn-primary" id="close">X</button></div>
+                    <a href="index.html" class="dropdown-link navLink" id="home">Home</a>
+                    <a href="#top" class="dropdown-link current">Portfolio</a>
+                    <a href="contact.html" class="dropdown-link navLink">Contact</a>
+                </div>
+            </nav>   
+        </header>
+        <a id="top"></a>
+        <div class="bg-img"></div>
+        <div class="my-container">
+            <section class="content">
+                <div class="bio">
+                    <p class="responsive-text">My name is <span class="blue-text">Ross McIntyre</span> and I am an aspiring web developer and software engineer.</p>
+                    <p class="responsive-text">I am currently enrolled on the University of Manchester Full Stack Coding Bootcamp and I have also been self-learning through 
+                        various resources such as <a class="blue-text inline-link" href="https://www.freecodecamp.org">Free Code Camp</a> and <a class="blue-text inline-link" href="https://www.udemy.com">Udemy</a>.</p>
+                    <p class="responsive-text">I have experience with HTML/CSS, CSS frameworks (such as Bootstrap), JavaScript (with jQuery) and Python. I am also currently learning Node.js, Express.js, React and MongoDB</p>
+                    <p class="responsive-text">Below is a showcase of some of the projects I have been working on.</p>
+                </div>
+                <div class="portfolio-section grey-bg" id="barbershop">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="port-img-container">
+                                    <img src="assets/barbershop.jpg" alt="An image showing the fake barbershop website" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="portfolio-header">Barbershop Website</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="portfolio-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore et reiciendis enim tenetur. Veniam qui aliquid distinctio, dolorum quo doloribus cumque maiores exercitationem aperiam, non beatae sapiente in, minima corporis!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                    <div class="col-4">
+                                        <a href="https://github.com/Ross-mc/barbershop-website" class="port-link">Code</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-2"></div>
+                                    <div class="col-4">
+                                        <a href="https://rossmcintyre.tech/barbershop-website/barbershop.html" class="port-link">Live</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-section white-bg" id="javascript-timer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="port-img-container">
+                                    <img src="assets/timer.jpg" alt="An image showing the JavaScript Timer" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="portfolio-header">JavaScript Timer</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="portfolio-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore et reiciendis enim tenetur. Veniam qui aliquid distinctio, dolorum quo doloribus cumque maiores exercitationem aperiam, non beatae sapiente in, minima corporis!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                    <div class="col-4">
+                                        <a href="https://github.com/Ross-mc/JavaScript-Timer" class="port-link">Code</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-2"></div>
+                                    <div class="col-4">
+                                        <a href="https://www.rossmcintyre.tech/Javascript%20Timer/javascript-timer.html" class="port-link">Live</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-section grey-bg" id="random-quote">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="port-img-container">
+                                    <img src="assets/quote.jpg" alt="An image showing the random quote generator" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="portfolio-header">Random Quote Generator</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="portfolio-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore et reiciendis enim tenetur. Veniam qui aliquid distinctio, dolorum quo doloribus cumque maiores exercitationem aperiam, non beatae sapiente in, minima corporis!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                    <div class="col-4">
+                                        <a href="https://github.com/Ross-mc/Random-Quote-Generator" class="port-link">Code</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-2"></div>
+                                    <div class="col-4">
+                                        <a href="https://rossmcintyre.tech/random-quote-generator/quote.html" class="port-link">Live</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-section white-bg" id="javascript-calculator">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="port-img-container">
+                                    <img src="assets/calculator.jpg" alt="An image showing the JavaScript Calculator" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="portfolio-header">JavaScript Timer</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="portfolio-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore et reiciendis enim tenetur. Veniam qui aliquid distinctio, dolorum quo doloribus cumque maiores exercitationem aperiam, non beatae sapiente in, minima corporis!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                    <div class="col-4">
+                                        <a href="https://github.com/Ross-mc/Javascript-Calculator" class="port-link">Code</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-2"></div>
+                                    <div class="col-4">
+                                        <a href="https://rossmcintyre.tech/Javascript%20Calculator/javascript-calculator.html" class="port-link">Live</a>
+                                    </div>
+                                    <!-- empty col -->
+                                    <div class="col-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="sticky-footer">
+                <div class="socialImages">
+                    <a href="https://codepen.io/ross-mc"><i class="fab fa-codepen fa-2x"></i></a>
+                    <a href="https://github.com/Ross-mc"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/ross-mcintyre-54a13787/"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="mailto:rossmci90@hotmail.co.uk"><i class="fas fa-at"></i></a>
+                    <p class="footer-text small">&copy; Ross McIntyre 2020</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>

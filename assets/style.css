@@ -22,16 +22,12 @@ body{
     display: none;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 4vw;
+    left: 4vw;
+    right: 0;
     z-index: 1000;
     margin-top: 2vh;
 }
 
-#fullNav > ul{
-    position: absolute;
-    right: 2vw;
-}
 
 .current{
     color: #008B8B;
@@ -49,7 +45,7 @@ body{
 }
 
 .nav-item{ 
-    float: right;
+    float: left;
     padding-left: 3vw;
     font-size: 20px;
 
@@ -82,7 +78,7 @@ body{
     position: absolute;
     z-index: 1000;
     left: 50%;
-    margin-top: 3vh;
+    margin-top: 1.6vh;
     transform: translate(-50%);
     color: whitesmoke;
     background-color: #008B8B;
@@ -136,7 +132,7 @@ body{
     position: absolute;
     z-index: 100;
     min-height: 94vh;
-    width: 80%;
+    width: 100%;
     margin-top: 4vh;
     left: 50%;
     transform: translate(-50%);
@@ -146,12 +142,27 @@ body{
 
 .content {
     position: relative;
-    margin-top: 20vh;
+    margin-top: 10vh;
     color: whitesmoke;
     padding-bottom: 100px;
+    margin-bottom: 1vh;
 
 
 
+}
+
+.responsive-text{
+    font-size: 18px;
+}
+
+
+.bio{
+    min-height: 88vh;
+    margin: 0 3vw;
+}
+
+.inline-link:hover{
+    color: #008B8B;
 }
 
 
@@ -167,11 +178,48 @@ body{
     border-radius: 10px;
 }
 
+.portfolio-section{
+    width: 100vw;
+    padding: 1.5vh 1vw;
+}
+
+
+
+.grey-bg{
+    background-color: rgba(35,40,45,1);
+    color: whitesmoke;
+}
+
+.white-bg{
+    background-color: whitesmoke;
+    color: rgba(35,40,45,1)
+}
+
+.port-img-container{
+    position: absolute;
+    margin-top: 50%;
+}
+
+.portfolio-header{
+    font-size: 1rem;
+    color: #008B8B;
+}
+
+.portfolio-desc{
+    font-size: 0.75rem;
+}
+
+.port-link{
+    background-color: #008B8B;
+    color: whitesmoke;
+    padding: 1vh 1vw;
+    border-radius: 8px;
+}
 
 
 .sticky-footer{
     position: absolute;
-    bottom: 20px;
+    bottom: 0.5vh;
     height: 100px;
     width: 90%;
     left: 50%;
@@ -208,26 +256,11 @@ a{
 
 
 
-.responsive-text{
-    font-size: 20px;
-    
-}
 
 .fab, .fas{
     padding: 10px;
     color: #008B8B;
     font-size: 1.5rem;
-}
-
-.test-class{
-    width: 80%;
-}
-
-.blue-box{
-    background-color: blue;
-    min-height: 100px;
-    position: relative;
-    z-index: 10;
 }
 
 
@@ -240,7 +273,7 @@ a{
     }
 
     .responsive-text{
-        font-size: 24px;
+        font-size: 22px;
 
     }
 
@@ -251,8 +284,8 @@ a{
     }
 
     .img-container{
-        height: 30%;
-        width: 30%;
+        height: 25%;
+        width: 25%;
     }
 
     .mobile-nav{
@@ -261,6 +294,16 @@ a{
 
     #fullNav{
         display: flex;
+    }
+
+    .portfolio-section{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .port-img-container{
+        margin-top: 0%;
+        position: relative;
     }
 
     
