@@ -22,8 +22,7 @@ body{
     display: none;
     position: fixed;
     top: 0;
-    left: 4vw;
-    right: 0;
+    left: 0;
     z-index: 1000;
     margin-top: 2vh;
 }
@@ -46,7 +45,7 @@ body{
 
 .nav-item{ 
     float: left;
-    padding-left: 3vw;
+    padding-left: 1vw;
     font-size: 20px;
 
 }
@@ -201,12 +200,12 @@ body{
 }
 
 .portfolio-header{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #008B8B;
 }
 
 .portfolio-desc{
-    font-size: 0.75rem;
+    font-size: 0.70rem;
 }
 
 .port-link{
@@ -253,6 +252,10 @@ a{
     color: #008B8B;
 }
 
+.port-link:hover{
+    color: whitesmoke;
+}
+
 
 
 
@@ -263,14 +266,35 @@ a{
     font-size: 1.5rem;
 }
 
+@media(min-width: 1500px){
+
+    .nav-item{
+        padding-left: 2vw;
+    }
+
+
+}
+
+@media(min-width: 1200px){
+    .mobile-nav{
+        display: none;
+    }
+
+    #fullNav{
+        display: flex;
+    }
+}
+
 
 
 
 @media(min-width: 769px){
 
+    
+
     .content{
         top: 30%;
-    }
+    }   
 
     .responsive-text{
         font-size: 22px;
@@ -288,23 +312,35 @@ a{
         width: 25%;
     }
 
-    .mobile-nav{
-        display: none;
+    .bio > .responsive-text{
+        position: relative;
+        top: 20vh;
+
     }
 
-    #fullNav{
-        display: flex;
+    .bio{
+        width: 60%;
+        margin: 0 auto;
     }
 
     .portfolio-section{
-        width: 80%;
-        margin: 0 auto;
+        width: 60%;
+        margin-bottom: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
     }
 
     .port-img-container{
         margin-top: 0%;
         position: relative;
     }
+
+    .portfolio-desc{
+        font-size: 1rem;
+    }
+
+    
 
     
     
