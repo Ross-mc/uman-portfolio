@@ -8,7 +8,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="assets/script.js"></script>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
-        <title>Ross McIntyre</title>
+        <title>Ross McIntyre ~ Contact</title>
 
     </head>
 
@@ -16,18 +16,18 @@
         <header>
             <nav class="justify-content" id="fullNav">
                 <div class="nav-list">
-                    <div class="nav-item"><a href="#top" class="current">Home</a></div>
+                    <div class="nav-item"><a href="index.html" class="navLink">Home</a></div>
                     <div class="nav-item"><a href="my-portfolio.html" class="navLink">Portfolio</a></div>
-                    <div class="nav-item"><a href="contact.html" class="navLink">Contact</a></div>
+                    <div class="nav-item"><a href="#top" class="current">Contact</a></div>
                 </div>
             </nav>
             <nav class="mobile-nav">
                 <div class="dropdown">
                     <div><button class="btn  btn-primary" id="dropbtn">Navigation &nbsp;<i class="fa fa-caret-down"></i></button></div>
                     <div id="closeDiv"><button class="btn btn-primary" id="close">X</button></div>
-                    <a href="#top" class="dropdown-link current" id="home">Home</a>
+                    <a href="index.html" class="dropdown-link navLink" id="home">Home</a>
                     <a href="my-portfolio.html" class="dropdown-link navLink">Portfolio</a>
-                    <a href="contact.html" class="dropdown-link navLink">Contact</a>
+                    <a href="#top" class="dropdown-link current">Contact</a>
                 </div>
             </nav>
         </header>
@@ -35,10 +35,40 @@
         <div class="bg-img"></div>
         <div class="my-container">
             <section class="content">
-                <p class="responsive-text">My name is <span class="blue-text">Ross McIntyre</span></a></p>
-                <p class="responsive-text">web developer <span class="blue-text">/</span> software engineer</p>
-                <div class="img-container">
-                    <img src="assets/me.jpg" alt="A picture of me, Ross McIntyre" class="img-fluid">
+                <div class="container form-box">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-11">
+                            <h3 class="blue-text" id="form-header">Contact</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <!-- empty col -->
+                        </div>
+                        <form class="col-11">
+                            <label for="name">Name</label><br>
+                            <input type="text" placeholder="Name" id="name" required><br>
+                            <label for="email">Email</label><br>
+                            <input type="email" placeholder="Email" id="email" required><br>
+                            <label for="message">Message</label><br>
+                            <textarea type="text" id="message" placeholder="Please enter your message" required></textarea><br>
+                        </form>
+                        <div class="col-1">
+                            <!-- empty col -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <!-- empty col -->
+                        </div>
+                        <div class="col-4">
+                            <button class="submit-form" type="submit" disabled>Submit</button>
+                        </div>
+                        <div class="col-7">
+                            <!-- empty col -->
+                        </div>
+                    </div>
                 </div>
             </section>
             <footer class="sticky-footer">

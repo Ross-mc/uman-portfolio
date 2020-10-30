@@ -256,6 +256,34 @@ a{
     color: whitesmoke;
 }
 
+.form-box{
+    background-color: rgba(35,40,45,1);
+    text-align: left;
+}
+
+#form-header{
+    padding-top: 1vh;
+}
+
+label{
+    margin-top: 3vh;
+}
+
+input, textarea{
+    font-size: 0.9rem;
+    width: 90%;
+}
+
+textarea{
+    height: 15vh;
+}
+
+.submit-form{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
 
 
 
@@ -340,6 +368,10 @@ a{
         font-size: 1rem;
     }
 
+    .form-box{
+        border-radius: 10px;
+        width: 65%;
+    }
     
 
     
