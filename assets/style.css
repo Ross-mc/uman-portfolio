@@ -119,9 +119,11 @@ body{
     filter: invert(18%) sepia(2%) saturate(5%) hue-rotate(42deg) brightness(25%) contrast(94%);
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
     z-index: -150;
     display: block;
     background-color: #333333;
