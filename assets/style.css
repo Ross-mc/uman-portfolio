@@ -117,8 +117,8 @@ body{
     background-size: cover;
     text-align: center;
     filter: invert(18%) sepia(2%) saturate(5%) hue-rotate(42deg) brightness(25%) contrast(94%);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     left: 0;
     right: 0;
