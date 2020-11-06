@@ -153,13 +153,16 @@ body{
 }
 
 .responsive-text{
-    font-size: 18px;
+    font-size: 16px;
+    width: 95%;
+    margin: 1vh auto;
 }
 
 
 .bio{
     min-height: 88vh;
-    margin: 0 3vw;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .inline-link:hover{
@@ -321,6 +324,12 @@ textarea{
     #fullNav{
         display: flex;
     }
+
+    .bio > .responsive-text{
+        position: relative;
+        top: 15vh;
+
+    }
 }
 
 
@@ -350,11 +359,7 @@ textarea{
         width: 25%;
     }
 
-    .bio > .responsive-text{
-        position: relative;
-        top: 20vh;
 
-    }
 
     .bio{
         width: 60%;
@@ -383,6 +388,18 @@ textarea{
         width: 65%;
     }
     
+}
+
+@media(min-width: 600px){
+    .responsive-text{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 321px){
+    .responsive-text{
+        font-size: 15px;
+    }
 }
 
 @media(max-height: 550px){
